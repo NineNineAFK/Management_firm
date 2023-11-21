@@ -29,3 +29,10 @@ section.container.my-5{
 div.row{
     width: 1500px;
 }
+
+footer {
+    background-color: #1A120B;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
