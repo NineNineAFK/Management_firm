@@ -1,0 +1,113 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #495057;
+}
+
+nav.navbar {
+    background-color: #ffd700; /* Yellow background color */
+}
+
+.mt-4{
+    padding-top: 30px;
+    color: #000;
+}
+a.btn.btn-primary.btn-lg{
+    background: #3C2A21;
+}
+nav a,
+.navbar-light .navbar-nav .nav-link {
+    color: #495057 !important;
+}
+
+nav a:hover,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #007bff !important;
+}
+
+/* Updated styles for the Jumbotron */
+.jumbotron {
+    background-color: #D5CEA3;
+    padding: 80px 0;
+    margin-bottom: 0;
+}
+
+/* Updated styles for the Call to Action Section */
+section.container.my-5.text-center {
+    background-color: #fff; /* Set the background color for the section */
+    padding: 5px 0;
+}
+
+/* Styles for the Achievements and Testimonials Section */
+section.container.my-5 {
+    background-color: #f8f9fa; /* Set the background color for the section */
+    padding: 5px 0;
+}
+
+
+
+/* Background images for each service section */
+.col-md-4 {
+    background-size: contain; /* Adjusted to contain the entire image within the section */
+    
+     background-position-x: 65px;
+     background-position-y: 65px;
+    background-repeat: no-repeat;
+     /* Adjust the height as needed */
+    width: 200px;
+    height: 250px;
+}
+
+
+.col-md-4:nth-child(1) {
+    background-image: url('strategy.jpg');  /* Add your image URL here */
+}
+
+.col-md-4:nth-child(2) {
+    background-image: url('gang1.jpg'); /* Add your image URL here */
+}
+
+.col-md-4:nth-child(3) {
+    background-image: url('proof.jpg'); /* Add your image URL here */
+}
+
+footer {
+    background-color: #1A120B;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Styles for the form modal */
+.modal-content {
+    border-radius: 0;
+}
+
+.col-md-4{
+    text-decoration: #fbfbfb;
+}
+
+h4{
+    color: #3C2A21;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+
+section.container div.col-md-6{
+    background-color: #D8D9DA;
+    padding-top: 20px;
+}
+
+section.container.my-5.text-center{
+    margin-bottom: 20000px;
+}
+
+
+div.col-md-12 {
+    padding-top: 100px;
+
+}
+

@@ -1,0 +1,60 @@
+/* ======= Custom About Section Styles ======= */
+#custom-about {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+  }
+  
+  #custom-about h2 {
+    font-size: 36px;
+    color: #343a40;
+  }
+  
+  #custom-about p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #6c757d;
+  }
+  
+  #custom-about ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #custom-about ul li {
+    margin-bottom: 10px;
+  }
+  
+  #custom-about ul li i {
+    color: #007bff;
+  }
+  
+  #custom-about img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  /* Responsive Styling */
+  @media (max-width: 992px) {
+    #custom-about img {
+      margin-bottom: 0;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    #custom-about {
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+  
+    #custom-about h2 {
+      font-size: 28px;
+    }
+  
+    #custom-about ul li {
+      font-size: 14px;
+    }
+  }
+  

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles1.css"> 
+    <style>
+        
+    </style>
+    <title>Our Services</title>
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Zaza</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="text-light text-center py-3" >
+        <div class="container">
+            <h1 class="display-5">Our Services</h1>
+            <p class="lead">Discover How We Can Help You</p>
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section class="container my-5">
+        <div class="row">
+            <!-- service 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="video editor.jpg" class="card-img-top" alt="Service 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Digital Producer</h5>
+                        <p class="card-text">Video Editing, GFX, P-Production.</p>
+                        <a href="#" class="btn btn-primary custom-get-started-btn" data-toggle="modal" data-target="#formModal">Get Started</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- service 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="content_writer.jpg" class="card-img-top" alt="Service 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Content Writer</h5>
+                        <p class="card-text">Crafting brand narratives.</p>
+                        <a href="#" class="btn btn-primary custom-get-started-btn" data-toggle="modal" data-target="#formModal">Get Started</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- service 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="web_developer.jpg" class="card-img-top" alt="Service 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Web Developer</h5>
+                        <p class="card-text">Responsive, Dynamic Websites.</p>
+                        <ahref="#" class="btn btn-primary custom-get-started-btn" data-toggle="modal" data-target="#formModal">Get Started</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- service 4 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="SEO.jpg" class="card-img-top" alt="Service 4"style="padding-bottom: 55px; padding-top: 2.5px;">
+                    <div class="card-body">
+                        <h5 class="card-title">SMMA</h5>
+                        <p class="card-text">SEO and Ads Campaigns</p>
+                        <a href="#" class="btn btn-primary custom-get-started-btn" data-toggle="modal" data-target="#formModal">Get Started</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- service 5 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="lawyer.jpg" class="card-img-top" alt="Service 5" >
+                    <div class="card-body">
+                        <h5 class="card-title">Paralegal</h5>
+                        <p class="card-text">Contracts & Public Reputation</p>
+                        <a href="#" class="btn btn-primary custom-get-started-btn" data-toggle="modal" data-target="#formModal">Get Started</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- service 6 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="discord.jpg" class="card-img-top" alt="Service 6" style="padding-bottom: 70px; padding-top: 2.5px;">
+                    <div class="card-body">
+                        <h5 class="card-title">Service 2</h5>
+                        <p class="card-text">Description of Service 2.</p>
+                        <a href="#" class="btn btn-primary custom-get-started-btn" data-toggle="modal" data-target="#formModal">Get Started</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Add more services as needed -->
+        </div>
+    </section>
+
+    <!-- ... (remaining HTML code) ... -->
+
+    <!-- Form Modal -->
+    <div class="modal fade" id="formModal" tabindex="-1" role="dialog" aria-labelledby="formModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="formModalLabel">Get Started</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Your Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Your Email">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+                        </div>
+                        <button  type="submit" class="btn btn-primary" id="submitBtn">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+
+
+
+    <script src="data.js"> </script>
+</body>
+<footer>
+    <p>&copy; 2023 Your Media Firm. All rights reserved.</p>
+</footer>
+
+</html>
